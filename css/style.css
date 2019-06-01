@@ -238,7 +238,7 @@ Google Font
     font-size: 30px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
-    color: #00abc9;
+    color: #9fddce;
     text-align: center;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -246,9 +246,9 @@ Google Font
 }
 
 .process-wrapp li:hover .pro-step {
-    border: 1px solid #cb342b;
-    -webkit-box-shadow: 0 0 25px 50px #cb342b inset;
-    box-shadow: 0 0 25px 50px #cb342b inset;
+    border: 1px solid #f4e7ad ;
+    -webkit-box-shadow: 0 0 25px 50px #f4e7ad  inset;
+    box-shadow: 0 0 25px 50px #f4e7ad inset;
     color: #fff;
 }
 
