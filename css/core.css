@@ -47,8 +47,8 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px;list-style-type: n
 .text-very-light-gray {color:#ededed}
 .text-yellow {color:#ffb426}
 .text-green {color:#82b440;}
-.text-red {color: rgb(203, 52, 43)}
-.text-blue {color: rgb(0, 171, 201)}
+.text-red {color: rgb(244,231,173)}
+.text-blue {color: rgb(159,221,206)}
 .text-dark-blue{color: #012c57
 }
 .text-orange{color: #ec6d48}
@@ -96,7 +96,7 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px;list-style-type: n
 .bg-medium-light-gray {background-color:#ededed}
 .bg-light-gray {background-color: #f9f9f9}
 .bg-very-light-gray {background-color: #f8f8f8 }
-.bg-yellow {background-color: #ffb426;}
+.bg-yellow {background-color: #F4E7AD;}
 .bg-new-yellow {background-color: #e3de00;}
 .bg-blue {background-color: #17acc6;}
 .bg-lg-blue {background-color: #00e4ce;}
