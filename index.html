@@ -42,34 +42,32 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="90">
-
+<body data-spy="scroll" data-target=".navbar" data-offset="90" class="bottom-nav side-nav">
 <div id="loader">
 <div class='loader'></div>
 </div>
-<!-- Push Nav -->
-<div id="perspective" class="perspective effect-moveleft">
-    <div class="cont">
-        <div class="wrapper">
+
 
     <!-- start header -->
+
+
+  <header class="center-logo-header">
     <header>
         <!-- start navigation -->
-        <nav class="nav-bar-white navbar navbar-default bootsnav navbar-fixed-top nav-white header-light bg-transparent nav-box-width white-link on no-full nav_line">
-            <div class="container nav-header-container">
-                <div class="row">
-                    <div class="col-md-2 col-xs-5">
-                        <a href="#home" title="Logo" class="logo scroll"><img src="images/logo-blue-black.png"
-                                                                              class="logo-dark" alt="reone"><img
-                                src="images/logo-red-white.png" alt="reone" class="logo-light default"></a>
-                    </div>
-                    <!-- end logo -->
-                    <div class="col-md-7 col-xs-2 width-auto pull-right accordion-menu no-padding-right hidden-sm hidden-xs">
-                        <div class="navbar-collapse collapse pull-right" id="navbar-collapse-toggle-1">
-                            <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal"
-                                data-in="fadeIn" data-out="fadeOut">
-                                <!-- start menu item -->
-                                <li class="active">
+    <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light bg-transparent nav-box-width nav-white-list menu-logo-center on no-full">
+        <div class="container nav-header-container">
+            <div class="row">
+                <!-- start logo -->
+                <div class="center-logo">
+                    <a href="#home" title="Logo" class="logo scroll"><img src="images/logo-blue-black.png" class="logo-dark" alt="finza"><img src="images/logo-red-white.png" alt="finza" class="logo-light default"></a>
+                </div>
+                <!-- end logo -->
+                <div class="col-md-12 col-sm-12 col-xs-12 accordion-menu">
+                    <button type="button" class="navbar-toggle collapsed pull-right display-none" aria-hidden="true">
+                    </button>
+                    <div class="navbar-collapse collapse no-padding-right">
+                        <ul class="nav navbar-nav navbar-left text-right no-margin alt-font text-normal width-40 sm-width-100 sm-text-left hidden-sm hidden-xs" data-in="fadeIn" data-out="fadeOut">
+                            <li class="active">
                                     <a href="index-multi.html">HOME</a>
                                 </li>
                                 <li>
@@ -79,7 +77,11 @@
                                 <li>
                                     <a href="price-page.html">SAVE A LIFE</a>
                                 </li>
-                                <li>
+                            
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right no-margin alt-font text-normal width-40 sm-width-100 hidden-sm hidden-xs" data-in="fadeIn" data-out="fadeOut">
+                           
+                                                            <li>
                                     <a href="price-page.html">BLOG</a>
                                 </li>
                                 <li>
@@ -88,31 +90,116 @@
                                 <li>
                                     <a href="contact.html">FAQ</a>
                                 </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-xs-5 width-auto sm-width-15 xs-width-20">
-                        <div class="header-searchbar">
-                            <a href="#search-header" title="Search" class="header-search-form"><i
-                                    class="fa fa-search search-button"></i></a>
-                            <!-- search input-->
-                            <form id="search-header" method="post" action="#." name="search-header"
-                                  class="search-form-result mfp-hide">
-                                <div class="search-form position-relative">
-                                    <button type="submit" class="fa fa-search close-search search-button"></button>
-                                    <input type="text" name="search" class="search-input"
-                                           placeholder="Enter your keywords..." autocomplete="off">
-                                </div>
-                            </form>
-                        </div>
+                           
+                        </ul>
                     </div>
                 </div>
             </div>
-            <!-- Push Nav Button -->
-            <div id="showMenu" class="showMenuButton-two">
-                <span class="hamburger"></span>
-            </div>
-            <!-- end navigation -->
+        </div>
+        <!-- side nav -->
+        <div id="menu_bars" class="right menu_bars">
+            <span class="t1"></span>
+            <span class="t2"></span>
+            <span class="t3"></span>
+        </div>
+        <div class="sidebar_menu">
+            <nav class="pushmenu pushmenu-right">
+                <a class="push-logo scroll" href="https://www.enveiria.com"><img src="images/logo-blue-white.png" alt="logo"></a>
+                <ul class="push_nav centered">
+                    <li class="clearfix">
+                        <a href="#home" class="scroll"><span>01.</span>HOME</a>
+
+                    </li>
+                    <li class="clearfix">
+                      <a href="https://enveiria.com/interns" ><span>02.</span>ABOUT</a>
+
+                    </li>
+                    <li class="clearfix">
+                        <a href="#locations" class="scroll"> <span>03.</span>SAVE A LIFE</a>
+
+                    </li>
+
+                    <li class="clearfix">
+                        <a href="https://www.enveiria.com/parents"> <span>04.</span>BLOG</a>
+
+                    </li>
+                    <li class="clearfix">
+                        <a href="https://www.enveiria.com/employers"> <span>05.</span>CONTACT US</a>
+
+                    </li>
+                   
+                    <li class="clearfix">
+                        <a href="https://www.enveiria.com/contact" > <span>06.</span>FAQ</a>
+
+                 
+
+
+                </ul>
+                <div class="medium-icon side-nav-social-icon list-inline">
+                    <a class="facebook-bg-hvr" href="https://www.facebook.com/enveiria/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+ <a class="twitter-bg-hvr" href="https://twitter.com/enveiria"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a class="linkedin-bg-hvr" href="https://www.linkedin.com/company/enveiria-inc/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+            </nav>
+        </div>
+        <!-- side nav end -->
+    </nav>
+    <!-- end navigation -->
+</header>
+<!-- end header -->
+
+<!-- start slider -->
+<section class="fadeIn example no-padding no-transition" id="home">
+<h1 class="display-none no-padding no-margin" aria-hidden="true">Enveiria</h1>
+<h2 class="display-none no-padding no-margin" aria-hidden="true">Enveiria</h2>
+<article class="content"><h2 class="display-none no-padding no-margin" aria-hidden="true">Enveiria</h2>
+    <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container"
+         data-alias="classic4export" data-source="gallery"
+         style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+        <!-- START REVOLUTION SLIDER 5.4.5 fullscreen mode -->
+                    <div id="rev_slider_5_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.5">
+                        <ul>    <!-- SLIDE  -->
+                            <li data-index="rs-9" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                <!-- MAIN VIDEO -->
+                                 
+                                  <video src="video/homeless.mp4" alt="cover" data-bgposition="center center" data-bgfit="cover"  data-bgparallax="off" class="rev-slidebg" data-no-retina autoplay loop muted></video>
+                                <!-- LAYERS -->
+
+                                
+
+                                <!-- LAYER NR. 15 -->
+                                
+                                <div class="tp-caption   tp-resizeme"
+                                     id="slide-67-layer-2"
+                                     data-x="['center','center','center','center']" data-hoffset="['1','1','0','0']"
+                                     data-y="['top','top','top','top']" data-voffset="['10','10','10','10']"
+                                     data-fontsize="['90','90','70','50']"
+                                     data-lineheight="['90','90','70','50']"
+                                     data-width="['none','none','481','360']"
+                                     data-height="none"
+                                     data-whitespace="['nowrap','nowrap','normal','normal']"
+
+                                     data-type="text"
+                                     data-responsive_offset="on"
+
+                                     data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:0.9;sY:0.9;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"sX:0.9;sY:0.9;opacity:0;fb:20px;","ease":"Power3.easeInOut"}]'
+                                     data-textAlign="['center','center','center','center']"
+                                     data-paddingtop="[0,0,0,0]"
+                                     data-paddingright="[0,0,0,0]"
+                                     data-paddingbottom="[0,0,0,0]"
+                                     data-paddingleft="[0,0,0,0]"
+
+                                     style="z-index: 19; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 500; color: #ffffff; letter-spacing: -5px;font-family:'Raleway', sans-serif;">ShelterHope<br> 
+                                    <h4><span class="text-red">Don't Stray From Loved Ones </span></div></h4>
+
+                                
+            </section>
+    <!-- end revolution slider -->
+</article>
+<!-- end slider -->
+</section>
+<!-- end slider -->
+
         </nav>
 
     </header>
@@ -1029,18 +1116,7 @@
 
 </div>
 </div>
-    <!-- Push Nav Link -->
-    <ul class="navbar outer-nav right vertical alt-font">
-        <li><a href="index-multi.html" class="icon-home">HOME</a></li>
-        <li><a href="feature-page.html" class="icon-features">ABOUT</a></li>
-        <li><a href="about-page.html" class="icon-about">SAVE A LIFE</a></li>
-        <li><a href="work-page.html" class="icon-work">BLOG</a></li>
-        <li><a href="price-page.html" class="icon-pricing">Pricing</a></li>
-        <li><a href="blog-left.html" class="icon-blog">CONTACT US</a></li>
-        <li><a href="contact.html" class="icon-contact">FAQ</a></li>
-    </ul>
-</div>
-
+    
 
 
 
