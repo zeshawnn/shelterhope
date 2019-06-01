@@ -13,7 +13,7 @@ h5 {font-size:32px; line-height:40px}
 h6 {font-size:25px; line-height:30px}
 
 
-body{ font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman",, sans-serif;  font-size:16px; color: #5d5d5d; font-weight: 100;line-height: 24px;overflow-x: hidden;}
+body{ font-family:  Garamond;  font-size:16px; color: #5d5d5d; font-weight: 100;line-height: 24px;overflow-x: hidden;}
 a:hover, a:active{color:#f1f1f1; text-decoration: none;}
 a:focus, a:active, button:focus, button:active,.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {outline: none;text-decoration: none}
 img {width:100%; height:auto; max-width:100%; border-style: none;}
@@ -126,7 +126,7 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px;list-style-type: n
 
 /*   Custom */
 .center-col {float:none; margin-left:auto; margin-right:auto }
-section {padding: 5px 0; overflow: hidden;}
+section {padding: 140px 0; overflow: hidden;}
 section.big-section {padding:160px 0;}
 section.extra-big-section {padding:200px 0;}
 section.half-section {padding:80px 0;}
@@ -155,8 +155,8 @@ section.half-section {padding:80px 0;}
 .btn.btn-black:hover, .btn.btn-black:focus {background: transparent; color: #000}
 .btn.btn-yellow {background: #ffb426 !important; border-color: #efaa26 !important; color: #fff !important;}
 .btn.btn-yellow:hover, .btn.btn-yellow:focus {background: transparent !important; border-color: #ffb426 !important; color: #ffb426 !important;}
-.btn.btn-blue {background: #17acc6 !important; border-color: #17acc6 !important; color: #fff !important;}
-.btn.btn-blue:hover, .btn.btn-blue:focus {background: transparent !important; border-color: #17acc6 !important; color: #17acc6 !important;}
+.btn.btn-blue {background: #9fddce  !important; border-color: #9fddce  !important; color: #fff !important;}
+.btn.btn-blue:hover, .btn.btn-blue:focus {background: transparent !important; border-color: #9fddce  !important; color: #9fddce  !important;}
 .btn.btn-dark-blue {background: #012c57 !important; border-color: #012c57 !important; color: #fff !important;}
 .btn.btn-dark-blue:hover, .btn.btn-dark-blue:focus {background: transparent !important; border-color: #012c57 !important; color: #012c57 !important;}
 .btn.btn-green {background: #82b440 !important; border-color: #82b440 !important; color: #fff !important;}
