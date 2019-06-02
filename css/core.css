@@ -47,7 +47,7 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px;list-style-type: n
 .text-very-light-gray {color:#ededed}
 .text-yellow {color:#ffb426}
 .text-green {color:#82b440;}
-.text-red {color: rgb(244,231,173)}
+.text-red {color: rgb(241,196,15)}
 .text-blue {color: rgb(159,221,206)}
 .text-dark-blue{color: #012c57
 }
@@ -804,7 +804,7 @@ header nav.nav-center-logo .row > div:first-child {flex: none;}
 .nav-center-logo .navbar-left { margin-left: -15px;}
 .nav-center-logo .navbar-left li:first-child a { margin-left: 0;}
 nav.nav-center-logo.navbar.bootsnav li.dropdown ul.dropdown-menu,nav.bootsnav.brand-center ul.nav > li.dropdown > ul.dropdown-menu {margin-top: 0px;}
-.center-logo {left: 50%; position: absolute; margin-top: -14px; top: 50%; text-align: center; transform: translateX(-50%); z-index: 1; max-width: 20%}
+.center-logo {left: 50%; position: absolute; margin-top: -14px; top: 42%; text-align: center; transform: translateX(-50%); z-index: 1; max-width: 20%}
 nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a {text-align: left }
 header nav.navbar-fixed .nav-header-container {width: 100%; float: left;}
 
